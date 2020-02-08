@@ -1,4 +1,4 @@
-const {p, render} = require('../index')({width: 10, height: 10});
+const {p, render} = require('../index')({width: 10, height: 3});
 function A(n) {
     p(`A: ${n}`);
     n = C(n - 1);
